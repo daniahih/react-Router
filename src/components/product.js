@@ -1,13 +1,14 @@
-import Product from "./store";
+import Store from "./store";
 import { Link } from "react-router-dom";
-console.log('product',Product)
+console.log('product',Store)
 const ProductPage =()=>{
+    
     return(
 
         <>
         <h1>Product Page </h1>
-    {Product.map((e) => {
-   return <li><Link to='/DetaildInfo'>{e.title}</Link></li>      
+    {Store.map((e) => {
+   return <li><Link  to={`/DetaildInfo/${e.id}`}>{e.title}</Link></li>      
 })}
         </>
     )

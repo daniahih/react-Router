@@ -1,5 +1,5 @@
 
-const Product=[
+const Store=[
     {
     title: "Stylish hat",
     imageUrl: "https://i.ibb.co/pPSQYfX/hat.jpg",
@@ -29,4 +29,4 @@ const Product=[
     id: 4
     },
     ];
-     export default Product
+     export default Store

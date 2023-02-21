@@ -14,9 +14,9 @@ children:
     path:'/Product',element:<ProductPage/>
   },
 
-{
-path:'/DetaildInfo',element:<DetaildInfo/>
-}
+  {
+  path:'/DetaildInfo/:id',element:<DetaildInfo/>
+  }
 
 ]
 
