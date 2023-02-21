@@ -1,5 +1,5 @@
 import Store from "./store";
-import {  useParams } from "react-router-dom";
+import {  Link, useParams } from "react-router-dom";
 console.log(Store);
 const DetaildInfo = () => {
     const params = useParams()
@@ -15,6 +15,7 @@ const DetaildInfo = () => {
     <p>
         {result[0].price}
     </p>
+    <Link to='/Product'>Back</Link>
     </>
     
 }
